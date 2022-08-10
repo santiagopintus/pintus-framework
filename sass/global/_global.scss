@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    //Resets 1rem to be 10px
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+/* Global styles */
+html,body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: $primaryFont;
+    font-size: $fontSize;
+    color: $textColor;
+}
+p {
+    line-height: $lineHeight;
+}
+a {
+    text-decoration: $linksTextDecoration;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: $titleFont;
+}
+h1 {font-size: $h1Size;}
+h2 {font-size: $h2Size;}
+h3 {font-size: $h3Size;}
+h4 {font-size: $h4Size;}
+h5 {font-size: $h5Size;}
+h6 {font-size: $h6Size;}
+
+@include desktop {
+    h1 {font-size: $h1SizeDesktop;}
+    h2 {font-size: $h2SizeDesktop;}
+    h3 {font-size: $h3SizeDesktop;}
+    h4 {font-size: $h4SizeDesktop;}
+    h5 {font-size: $h5SizeDesktop;}
+    h6 {font-size: $h6SizeDesktop;}
+}

@@ -1,0 +1,79 @@
+.container {
+    width: $containerWidth;
+    max-width: $containerMax;
+    margin: 0 auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* BUTTON (To be used along with .primary or other classes */
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: .9rem 1.5rem;
+    border-radius: $buttonRadius;
+    font-weight: 700;
+    font-size: $buttonFontSize;
+    text-align: center;
+    width: 100%;
+    border: 2px solid $iconsPrimary;
+    font-family: $titleFont;
+    line-height: 21.13px;
+    letter-spacing: .5px;
+    transition: $transitionAll;
+    text-transform: uppercase;
+
+    &:hover {
+        box-shadow: 0px 0px 4px $iconsPrimary;
+    }
+    &.primary {
+        text-transform: uppercase;
+        background-color: $iconsPrimary;
+        color: #ffffff;
+    }
+    &.secondary {
+        font-size: $buttonFontSizeDesktop;
+        background-color: transparent;
+        color: $iconsPrimary;
+        border: 2px solid $iconsPrimary;
+    }
+    &.tertiary {
+        border-color: $blanco;
+        background-color: $blanco;
+        color: $iconsPrimary;
+    }
+}
+
+//Badges
+.badge {
+    border-radius: $badgeRadius;
+    background-color: $gris;
+    font-family: $primaryFont;
+    padding: .1rem .7rem;
+    font-size: $badgeFSize;
+
+    &.badge-text-color {
+        background-color: $textColor;
+        color: $blanco;
+    }
+}
+.bg-deg-primary {
+    background: $gradientPrim;
+}
+.bg-deg-secondary {
+    background: $gradientSec;
+}
+.ws-nw {
+    white-space: nowrap;
+}
+@include desktop {
+    .container {
+        max-width: $containerWidthDesktop;
+    }
+    .button {
+        font-size: $buttonFontSizeDesktop;
+        width: fit-content;
+    }
+}

@@ -1,0 +1,15 @@
+// ALL ICONS ARE DEFINED HERE. THIS IS VERY REUSABLE AND PERFORMANT
+
+/* Logo */
+i.logo {
+  content: url(../assets/icons/logo.svg);
+  width: 9.6rem;
+
+  @include desktop {
+    width: 14.2rem;
+
+    &.logo-footer {
+      width: 16rem;
+    }
+  }
+}

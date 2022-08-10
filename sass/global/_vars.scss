@@ -1,0 +1,90 @@
+// COLORS 
+$azul: #24378F;
+$aqua: #00A88F;
+$bordo: #822D5E;
+$rosa: #EF6C64;
+$gris: #B3B3B3;
+$grisOscuro: #8d8d8d;
+$grisDarker: #737373;
+$grisLight: #ECECEC;
+$errorColor: #a94442;
+$errorBgColor: #f2dede;
+$successColor: #3c763d;
+$successBgColor: #dff0d8;
+$darkBlue: #263057;
+$disabledTextColor: $grisOscuro;
+$blanco: #ffffff;
+$negro: #000000;
+
+$textColor: $darkBlue;
+$primary: $aqua;
+$erreparColor: $aqua;
+$erreiusColor: $bordo;
+$iconsPrimary: $azul;
+
+//Badge colors
+$temDoctrina: $textColor;
+$temPenal: $iconsPrimary;
+$temEconomicas: $primary;
+$temLegislacion: $erreiusColor;
+$temChaco: $textColor;
+
+// BREAKPOINTS 
+$mobileMin: 383px;
+$tabletMin: 576px;
+$desktopMin: 768px;
+$largeMin: 1200px;
+
+//Container max size
+$containerWidth: 87.17%;
+$containerWidthDesktop: 78.9%;
+$containerMax: 113.6rem;
+$footerMobileContainerMax: 84vw;
+$splideWidth: calc(100vw - (100% - $containerWidth));
+
+// FONTS
+$titleFont: 'Raleway', sans-serif;
+$primaryFont: 'Roboto', sans-serif;
+
+$fontSize: 1.6rem;
+$buttonFontSize: $fontSize;
+$fontSizeHeader: 1.6rem;
+$h1Size: 2.4rem;
+$h2Size: 2rem;
+$h3Size: 2rem;
+$adsFontSize: 1.6rem;
+$badgeFSize: 1.4rem;
+$FScopySize: 1.4rem;
+
+//Desktop font-sizes
+$fontSizeHeaderDesktop: 1.8rem;
+$buttonFontSizeDesktop: $fontSizeHeaderDesktop;
+$h1SizeDesktop: 3.2rem;
+$h2SizeDesktop: 2.4rem;
+$h3SizeDesktop: 2rem;
+$adsFontSizeDesktop: 1.8rem;
+
+// SHADOWS & GRADIENTS 
+$headerShadow: 0px 4px 4px rgba(179, 179, 179, 0.5);
+$cardShadow: 0px 0px 4px rgba(36, 55, 143, 0.4);
+$hoverShadow: 0px 0px 8px 0px #24378F99;
+$gradientPrim: linear-gradient(to right, $bordo, $azul);
+$gradientSec: linear-gradient(to right, $aqua, $azul);
+$gradientCalido: linear-gradient(to right, $azul, $rosa);
+
+//BORDERS (According to Figma's border radius)
+$cardRadius: 0.8rem;
+$ctaRadius: 1.6rem;
+$buttonRadius: 2.3rem;
+$badgeRadius: .4rem;
+$badgeRadius: 4.4rem;
+$borderFooter: 1px solid $gris;
+$borderFaqItem: 1px solid $gris;
+$borderTabla: 1px solid $textColor;
+$borderRadiusTabla: .8rem;
+
+//ANIMATIONS
+$transitionDurationSlower: 400ms;
+$transitionDuration: 150ms;
+$dropdownTransitionDuration: 350ms;
+$transitionAll: all $transitionDuration ease-in-out;
