@@ -1,6 +1,6 @@
 // COLORS 
-$azul: #24378F;
-$aqua: #00A88F;
+$azul: #081343;
+$aqua: #0b4b41;
 $bordo: #822D5E;
 $rosa: #EF6C64;
 $gris: #B3B3B3;
@@ -16,18 +16,9 @@ $disabledTextColor: $grisOscuro;
 $blanco: #ffffff;
 $negro: #000000;
 
-$textColor: $darkBlue;
+$textColor: $negro;
 $primary: $aqua;
-$erreparColor: $aqua;
-$erreiusColor: $bordo;
 $iconsPrimary: $azul;
-
-//Badge colors
-$temDoctrina: $textColor;
-$temPenal: $iconsPrimary;
-$temEconomicas: $primary;
-$temLegislacion: $erreiusColor;
-$temChaco: $textColor;
 
 // BREAKPOINTS 
 $mobileMin: 383px;
@@ -45,24 +36,26 @@ $splideWidth: calc(100vw - (100% - $containerWidth));
 // FONTS
 $titleFont: 'Raleway', sans-serif;
 $primaryFont: 'Roboto', sans-serif;
-
+// Font sizes
 $fontSize: 1.6rem;
+$fontSizeSm: 1.4rem;
 $buttonFontSize: $fontSize;
 $fontSizeHeader: 1.6rem;
 $h1Size: 2.4rem;
 $h2Size: 2rem;
 $h3Size: 2rem;
-$adsFontSize: 1.6rem;
-$badgeFSize: 1.4rem;
-$FScopySize: 1.4rem;
-
+$h4Size: 1.8rem;
 //Desktop font-sizes
 $fontSizeHeaderDesktop: 1.8rem;
 $buttonFontSizeDesktop: $fontSizeHeaderDesktop;
 $h1SizeDesktop: 3.2rem;
 $h2SizeDesktop: 2.4rem;
-$h3SizeDesktop: 2rem;
-$adsFontSizeDesktop: 1.8rem;
+$h3SizeDesktop: 2.2rem;
+$h4SizeDesktop: 2rem;
+//Font (Other)
+$lineHeight: 1.5;
+$linksTextDecoration: none;
+
 
 // SHADOWS & GRADIENTS 
 $headerShadow: 0px 4px 4px rgba(179, 179, 179, 0.5);

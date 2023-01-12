@@ -46,28 +46,6 @@
     }
 }
 
-//Badges
-.badge {
-    border-radius: $badgeRadius;
-    background-color: $gris;
-    font-family: $primaryFont;
-    padding: .1rem .7rem;
-    font-size: $badgeFSize;
-
-    &.badge-text-color {
-        background-color: $textColor;
-        color: $blanco;
-    }
-}
-.bg-deg-primary {
-    background: $gradientPrim;
-}
-.bg-deg-secondary {
-    background: $gradientSec;
-}
-.ws-nw {
-    white-space: nowrap;
-}
 @include desktop {
     .container {
         max-width: $containerWidthDesktop;

@@ -1,0 +1,22 @@
+body {
+  background-color: #081343;
+  color: #fff;
+}.welcome-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2.4rem;
+  gap: 2.4rem;
+
+  i.logo {
+  content: url(../assets/icons/logo.svg);
+  width: 9.6rem;
+
+  @include desktop {
+    width: 14.2rem;
+
+    &.logo-footer {
+      width: 16rem;
+    }
+  }
+}
+}
